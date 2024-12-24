@@ -1,0 +1,3 @@
+/Users/michaelmessika/HUJI_CS/year 2/semester a/c/Huji-C-CPP/ex3a/cmake-build-debug/CMakeFiles/ex3a.dir
+/Users/michaelmessika/HUJI_CS/year 2/semester a/c/Huji-C-CPP/ex3a/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/michaelmessika/HUJI_CS/year 2/semester a/c/Huji-C-CPP/ex3a/cmake-build-debug/CMakeFiles/rebuild_cache.dir
