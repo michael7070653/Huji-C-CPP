@@ -57,6 +57,7 @@ dkms.conf
 *.swp
 *.tmp
 .DS_Store  # For macOS
+**/.DS_Store
 
 
 # Build directories
