@@ -17,6 +17,7 @@ The main focus is the tweet generator, which highlights the flexibility and powe
 - **Markov Chain Implementation**:
   - Generates text based on a Markov chain algorithm.
   - Trains the model using a dataset (`justdoit_tweets.txt`).
+  - Limits generated tweets to a maximum of 20 words.
 - **Linked List Library**:
   - Provides custom linked list structures for managing chains of words.
 - **Snakes and Ladders**:
@@ -26,7 +27,7 @@ The main focus is the tweet generator, which highlights the flexibility and powe
 
 ## File Structure
 - **Source Code**:
-  - `tweets_generator.c`: Main program for generating tweets.
+  - `tweets_generator.c`: Main program for generating tweets (up to 20 words per tweet).
   - `markov_chain.c` & `markov_chain.h`: Core implementation of the Markov chain.
   - `linked_list.c` & `linked_list.h`: Helper library for linked list operations.
   - `snakes_and_ladders.c`: Implementation of the Snakes and Ladders game.
@@ -36,7 +37,7 @@ The main focus is the tweet generator, which highlights the flexibility and powe
   - `makefile`: Alternative build configuration using Make.
 
 - **Input Data**:
-  - `justdoit_tweets.txt`: Example dataset used to train the Markov chain.
+  - `justdoit_tweets.txt`: Example dataset of motivational and hashtag-heavy tweets.
 
 ---
 
@@ -77,6 +78,7 @@ The main focus is the tweet generator, which highlights the flexibility and powe
 
 ## Dependencies
 - A C compiler (e.g., GCC or Clang).
+- Standard C libraries: `stdlib.h`, `string.h`, `stdio.h`.
 - CMake (optional, for building the project).
 
 ---
