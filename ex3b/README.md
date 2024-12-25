@@ -11,26 +11,30 @@ The repository also demonstrates key programming concepts such as:
 
 The main focus is the tweet generator, which highlights the flexibility and power of Markov chains for natural language processing tasks.
 
+**Note:** Both the Tweet Generator (`tweets_generator.c`) and the Snakes and Ladders game (`snakes_and_ladders.c`) are **examples**. The program is designed generically to work with any dataset or transition logic provided by the user, as long as the appropriate input and transition functions are implemented.
+
 ---
 
 ## Features
 - **Markov Chain Implementation**:
   - Generates text based on a Markov chain algorithm.
-  - Trains the model using a dataset (`justdoit_tweets.txt`).
+  - Trains the model using a dataset (e.g., `justdoit_tweets.txt`).
   - Limits generated tweets to a maximum of 20 words.
+  - Designed to handle **any dataset**, provided the appropriate functions are supplied.
 - **Linked List Library**:
   - Provides custom linked list structures for managing chains of words.
 - **Snakes and Ladders**:
-  - A standalone implementation of the classic game, included as a bonus.
+  - A standalone implementation of the classic game, demonstrating the flexibility of Markov chains for simulations.
+  - Can be extended to support other board games or similar probabilistic systems.
 
 ---
 
 ## File Structure
 - **Source Code**:
-  - `tweets_generator.c`: Main program for generating tweets (up to 20 words per tweet).
+  - `tweets_generator.c`: Example program for generating tweets (up to 20 words per tweet).
   - `markov_chain.c` & `markov_chain.h`: Core implementation of the Markov chain.
   - `linked_list.c` & `linked_list.h`: Helper library for linked list operations.
-  - `snakes_and_ladders.c`: Implementation of the Snakes and Ladders game.
+  - `snakes_and_ladders.c`: Example implementation of the Snakes and Ladders game.
 
 - **Build Configuration**:
   - `CMakeLists.txt`: CMake configuration for compiling the project.
@@ -67,12 +71,14 @@ The main focus is the tweet generator, which highlights the flexibility and powe
    ```bash
    ./tweets_generator
    ```
-   This will generate tweets based on the dataset in `justdoit_tweets.txt`.
+   This will generate tweets based on the dataset in `justdoit_tweets.txt`.  
+   You can replace the dataset with your own file and modify the corresponding input functions to suit your needs.
 
 2. (Optional) Play Snakes and Ladders:
    ```bash
    ./snakes_and_ladders
    ```
+   The game logic can be extended or modified for different board setups and rules.
 
 ---
 
